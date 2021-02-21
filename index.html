@@ -414,21 +414,23 @@
         <script src="jquery.js"></script>
 
         <script>
-            $('.toggler-nav').on('click', function () {
-                $('#navbar-overlay').fadeIn();
-                $('#close').show();
-            });
+            $(document).ready(function () {
+                $('.toggler-nav').on('click', function () {
+                    $('#navbar-overlay').fadeIn();
+                    $('#close').show();
+                });
 
-            $('#close').on('click', function () {
-                $('#close').hide();
-                $('#navbar-overlay').fadeOut();
-            });
+                $('#close').on('click', function () {
+                    $('#close').hide();
+                    $('#navbar-overlay').fadeOut();
+                });
 
-            $('.overlay-link').each(function () {
-               $(this).on('click', function () {
-                   $('#close').hide();
-                   $('#navbar-overlay').fadeOut();
-               });
+                $('.overlay-link').each(function () {
+                    $(this).on('click', function () {
+                        $('#close').hide();
+                        $('#navbar-overlay').fadeOut();
+                    });
+                });
             });
         </script>
     </body>
