@@ -306,6 +306,10 @@ h2, h3, h4, h5, h6, .h7-title {
     text-decoration: none;
 }
 
+button {
+    -webkit-appearance: none !important;
+}
+
 @media (max-width: 1140px) {
     .toggler-nav {
         display: block;
