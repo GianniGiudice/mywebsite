@@ -370,7 +370,7 @@ h2, h3, h4, h5, h6, .h7-title {
         font-size: 1.5rem !important;
     }
     
-    .experiences, .studies, .skills, .portfolio, .prices {
+    .welcome-presentation ,.experiences, .studies, .skills, .portfolio, .prices {
         font-size: 0.8rem;
     }
 }
