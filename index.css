@@ -1,0 +1,368 @@
+body {
+    font-family: 'Roboto', cursive;
+    color: #555;
+    text-align: justify;
+}
+
+.navbar {
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+}
+
+.nav-link {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.welcome {
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #322E71, #43C6AC) repeat scroll 0% 0%
+}
+
+/* WELCOME CONTENT */
+
+.welcome-content, .welcome-presentation, .experiences, .studies, .skills, .portfolio, .prices, .footer-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 56px;
+}
+
+.welcome-content {
+    margin-top: -300px;
+}
+
+.welcome-content img {
+    width: 400px;
+    border-radius: 0.5rem;
+}
+
+.welcome-content .welcome-text h1 {
+    font-size: 3rem;
+    border-right: 3px solid #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 315px; }
+}
+
+@-webkit-keyframes typewriter {
+    from { width: 0; }
+    to { width: 315px; }
+}
+
+@-webkit-keyframes blinkTextCursor {
+    from { border-right-color: #fff; }
+    to { border-right-color: transparent; }
+}
+
+@keyframes blinkTextCursor {
+    from { border-right-color: #fff; }
+    to { border-right-color: transparent; }
+}
+
+.welcome-content .welcome-text {
+    font-size: 1.1rem;
+}
+
+.welcome-content .welcome-text .item-block {
+    font-size: 1.1rem;
+}
+
+.welcome-content .welcome-text .item-block a {
+    font-size: 1.5rem;
+    opacity: 0.6;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.welcome-content .welcome-text .item-block a:hover {
+    opacity: 1;
+}
+
+.welcome-content .welcome-text .item-name {
+    opacity: 0.6;
+    margin-right: 50px;
+}
+
+.welcome-content .welcome-text .item-value {
+    width: 160px;
+}
+
+/* WELCOME PRESENTATION */
+
+.welcome-presentation {
+    font-size: 1.2rem;
+    margin-bottom: 70px;
+    padding-top: 80px;
+}
+
+.welcome-presentation h2 {
+    margin-bottom: 30px;
+}
+
+/* EXPERIENCES / STUDIES */
+
+.experiences, .studies, .skills, .portfolio, .prices {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    padding-top: 80px;
+}
+
+.experiences h3, .studies h4, .skills h5, .portfolio h6, .prices .h7-title {
+    margin-bottom: 30px;
+}
+
+/* SKILLS */
+
+.skills {
+    font-size: 0.8rem;
+}
+
+.skills .progress {
+    height: 0.5rem !important;
+    margin-bottom: 30px;
+}
+
+.skills .progress .progress-bar {
+    background-color: #587E9E !important;
+}
+
+.skills .progress-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .progress-label p {
+    margin-bottom: 5px !important;
+}
+
+/* PORTFOLIO */
+
+.card .card-image-block {
+    background: #e9ecef;
+}
+
+.card .card-image-block img {
+    width: 100%;
+}
+
+.card .card-image-block img.left-r {
+    border-radius: .25rem 0 0 .25rem !important;
+}
+
+.card .card-bottom {
+    position: absolute;
+    bottom: 5px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+/* PRICES */
+
+.prices .card-title, .prices .card-text {
+    padding: 1rem 1rem;
+}
+
+/* FOOTER */
+
+.gradient-theme {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #322E71, #43C6AC) repeat scroll 0% 0%
+}
+
+
+
+
+
+.circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #587E9E;
+}
+
+.trait {
+    margin-left: 6px;
+    width: 2px;
+    height: 125px;
+    background: #587E9E;
+}
+
+.schema-text {
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.schema-title {
+    color: #587E9E;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.schema-title img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.schema-subtitle {
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 1rem;
+}
+
+
+
+.card {
+    border: 1px solid #333 !important;
+}
+
+.fab:hover, .fas:hover {
+    color: #587E9E;
+}
+
+.btn-theme, .bg-theme {
+    background: #587E9E;
+}
+
+.btn-theme:hover {
+    background: #386386;
+}
+
+.btn-theme, .btn-theme:hover {
+    color: #fff;
+}
+
+h2, h3, h4, h5, h6, .h7-title {
+    font-size: 2rem !important;
+}
+
+.toggler-nav {
+    color: rgba(255, 255, 255, 0.7);
+    display: none;
+}
+
+.toggler-nav:hover, .fa-bars:hover {
+    color: #fff !important;
+}
+
+.close {
+    display: none;
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 6;
+    color: #fff;
+}
+
+.navbar-overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 5;
+    padding-top: 40px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 1.2rem;
+    display: none;
+    text-align: center;
+}
+
+.navbar-overlay ul {
+    padding-left: 0 !important;
+}
+
+.navbar-overlay li {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.navbar-overlay li:first-of-type {
+    margin-top: 100px;
+}
+
+.navbar-overlay li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 1140px) {
+    .toggler-nav {
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    #photo {
+        display: none;
+    }
+
+    .welcome-content {
+        margin-top: -370px;
+    }
+
+    .welcome-content .welcome-text h1 {
+        font-size: 2.5rem;
+    }
+
+    @keyframes typewriter {
+        from { width: 0; }
+        to { width: 270px; }
+    }
+
+    @-webkit-keyframes typewriter {
+        from { width: 0; }
+        to { width: 270px; }
+    }
+
+    .welcome-content .welcome-text .item-name {
+        margin-right: 10px;
+    }
+
+    .welcome-presentation, .experiences, .studies, .skills, .portfolio, .prices {
+        padding: 20px;
+        padding-top: 80px;
+    }
+
+    .schema {
+        display: none;
+    }
+
+    .schema-text {
+        margin-left: 0;
+    }
+
+    .schema-text div {
+        margin-bottom: 40px;
+    }
+
+    .skills .col-sm-6 {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+
+    .footer-container {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+}
