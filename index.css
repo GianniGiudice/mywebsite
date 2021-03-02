@@ -316,6 +316,10 @@ appearance: none;
     background-color: #333 !important;
 }
 
+.bg-project {
+    background-color: #587E9E !important;
+}
+
 @media (max-width: 1140px) {
     .toggler-nav {
         display: block;
