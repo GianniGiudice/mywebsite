@@ -312,6 +312,10 @@ input, button, [type="button"] {
 appearance: none;
 }
 
+.bg-dark {
+    background-color: #333 !important;
+}
+
 @media (max-width: 1140px) {
     .toggler-nav {
         display: block;
